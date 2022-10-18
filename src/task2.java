@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class task2 {
     public static void AddFive(int []arr2)
     {
-        for (int i=0;i<3;i++)
+        for (int i=0;i<4;i++)
         arr2[i]+=5;
     }
     public static void sad(int i)
@@ -82,13 +82,13 @@ public class task2 {
                 }
                 break;
             case 6:
-                int arr2 []=new int[3];
-                for (int l=0;l<3;l++)
+                int arr2 []=new int[4];
+                for (int l=0;l<4;l++)
                 {
                     arr2[l]= in.nextInt();
                 }
                 AddFive(arr2);
-                for (int l=0;l<3;l++)
+                for (int l=0;l<4;l++)
                 {
                     System.out.println(arr2[l] + " ");
                 }
