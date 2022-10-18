@@ -50,13 +50,13 @@ public class task2 {
             case 2:
                 int size=in.nextInt();
                 int sum=0,avg=0;
-                int [] arr=new int[size-1];
-                for(int a=0;a< arr.length-1;a++)
+                int [] arr=new int[size];
+                for(int a=0;a< arr.length;a++)
                 {
                     arr[a]= in.nextInt();
                     sum+=arr[a];
                 }
-                avg=sum/2;
+                avg=sum/size;
                 System.out.println("Average = "+avg);
                 break;
             case 3:
